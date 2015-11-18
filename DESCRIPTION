@@ -1,0 +1,28 @@
+Package: MetaCycle
+Type: Package
+Title: An integrated R package to evaluate periodicity in large scale
+        data
+Version: 1.0.0
+Authors@R: c(
+    person("Gang", "Wu",, email = "wggucas@gmail.com", role = c("aut", "cre")),
+    person("Ron", "Anafi",, email = "ranafi@gmail.com", role = c("aut", "ctb")),
+    person("John", "Hogenesch",, email = "hogenesch@gmail.com", role = c("aut", "ctb"))
+    )
+Maintainer: Gang Wu <wggucas@gmail.com>
+Description: This package provides two functions-meta2d and meta3d for
+    detecting rhythmic signals from time-series datasets. For analyzing
+    time-series datasets without individual information, 'meta2d' is 
+    suggested, which incorporates ARSER, JTK_CYCLE and Lomb-Scargle in the
+    detection of intereseted rhythms. For analyzing time-series datasets with
+    individual information, 'meta3d' is suggested, which takes use of 
+    Lomb-Scargle to analyze time-series data individual by individual and 
+    gives out integrated values based on analysis result of each individual.
+Depends: R (>= 2.14.2)
+Imports: gnm
+License: GPL (>= 2)
+LazyData: true
+NeedsCompilation: no
+Packaged: 2015-09-24 19:41:31 UTC; CirLab2
+Author: Gang Wu [aut, cre],
+  Ron Anafi [aut, ctb],
+  John Hogenesch [aut, ctb]
