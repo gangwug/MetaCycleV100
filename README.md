@@ -1,5 +1,5 @@
 # MetaCycle
-This repository contains files for MetaCycle version 1.0.0 (the first version).
+This repository contains files for MetaCycle version 1.0.0 (the first released version).
 
 ## Introduction
 MetaCycle is a newly developed R package for evaluating periodicity in large scale time-series datasets. This package provides 
